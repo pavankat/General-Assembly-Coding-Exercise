@@ -1,0 +1,61 @@
+body {
+	font: 16px 'Droid Sans', sans-serif;
+	color: #666666;
+	background-image: url('billie_holiday.png');	
+}
+
+	div#container {
+		width: 700px;
+		margin: 0 auto;
+	}
+
+		h1, h2 {
+			color: #409F89;
+		}
+
+			h1 {
+				font-size: 45px;
+			}
+
+			h2 {
+				font-size: 25px;
+			}
+
+		p { 
+			line-height: 24px; 
+			font-style:italic
+		}
+
+		.error { 
+			font-weight:bold; 
+			color: red;
+		}
+
+		form { margin-left: 15px; }
+
+			div.form { display: block; }
+
+			input,
+			select { margin-bottom: 25px; }
+
+			input[type=submit] {
+				background-color: #409F89;
+				border:none;
+				border-radius: 4px;
+				color: #ffffff;
+				font-size: 16px;
+				padding: 5px 30px;
+				cursor: pointer;
+			}
+
+			input[type=submit]:hover { background-color:#53ad98; }
+
+		hr {
+			border: none;
+			background-color:#409F89;
+			height: 1px;
+		}
+
+		.highlight {
+			background-color:yellow;
+		}

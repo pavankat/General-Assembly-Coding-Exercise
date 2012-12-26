@@ -1,5 +1,7 @@
 I used PHP to write a program which takes in the input of a plaintext data file and a search string. The program returns both a count of the times the string appears in the file and the average number of words between each instance of the search string.
 
+You can see the code live here: http://venturelateral.com/ga-code/ga-dev-exercise-pavan.php
+
 Below I describe the runtime of my program run in a machine-agnostic manner:
 
 First, the program grabs the phrase the user typed in, whether the user wants the search 
